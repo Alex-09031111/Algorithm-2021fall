@@ -98,6 +98,5 @@ int main() {
 	int* nums = new int[len];
 	for (int i = 0; i < len; i++) scanf("%d", nums + i);
 	printf("%d", Worst_Linear_Select(nums, 0, len - 1, k));
-	system("pause");
 	return 0;
 } // main
