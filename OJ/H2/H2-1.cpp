@@ -1,7 +1,7 @@
 // H2-1
 
 // Description: 
-// At a certain party, the organizer prepared a raffle for the audience, and the rules of the raffle were as follows.
+// At a party, the organizer prepared a raffle for the audience, and the rules of the raffle were as follows.
 // The host will randomly generate a number k on the big screen, 
 // and then the audience will enter a number between 0 and 10000 (including 0 and 10000) in the raffle system through their cell phones, 
 // at this time the winning audience will be the one who enters the kth smallest among all the audience,
@@ -98,5 +98,6 @@ int main() {
 	int* nums = new int[len];
 	for (int i = 0; i < len; i++) scanf("%d", nums + i);
 	printf("%d", Worst_Linear_Select(nums, 0, len - 1, k));
+	system("pause");
 	return 0;
 } // main
